@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+.main{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #091540;
+     }
+
+    .moviePic{
+        width: 650px;
+        height: 380px;
+        opacity: 0.4;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .movieDetail{
+          position: relative;
+          top: 2px;
+          width: 650px;
+          text-align: left;
+          font-size: 15px;
+          color: white;
+    }
+
+    h1, h2{
+        color: white;
+    }
